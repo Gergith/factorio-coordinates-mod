@@ -1,0 +1,11 @@
+
+{
+  "name": "coordinates",
+  "version": "0.12.0",
+  "title": "Coordinates",
+  "author": "Gergith",
+  "contact": "Private",
+  "homepage": "NA",
+  "description": "Adds coordinates",
+  "dependencies": ["base >= 0.12.0"]
+}
