@@ -1,0 +1,11 @@
+
+{
+  "name": "coordinates",
+  "version": "1.0.0",
+  "title": "Coordinates",
+  "author": "Gergith",
+  "contact": "http://www.factorioforums.com/forum/viewtopic.php?f=92&t=16999",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=92&t=16999",
+  "description": "Adds coordinates as a button permenantly at the top of the screen.",
+  "dependencies": ["base >= 0.12.0"]
+}

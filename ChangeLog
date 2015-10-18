@@ -1,0 +1,8 @@
+1.0.0 - 2015.10.17
+- Added: config file
+- Added: option to specify number of decimal places/significant digits
+- Changed: version number convention
+- Fixed: 0.12.11 support
+
+0.12.0 - 2015.10.12
+- Initial Release
