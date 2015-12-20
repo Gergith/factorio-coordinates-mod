@@ -12,10 +12,7 @@ script.on_event(defines.events.on_tick, function(event)
 
 		for i, player in ipairs(game.players) do
 			if player.gui.top.coordinatesGUI == nil then player.gui.top.add{type="button", name="coordinatesGUI"} end
-			if coordinates.significantdigits == 0 then player.gui.top.coordinatesGUI.caption = string.format("x=%.0f y=%.0f",game.player.character.position.x,game.player.character.position.y) end
-			if coordinates.significantdigits == 1 then player.gui.top.coordinatesGUI.caption = string.format("x=%.1f y=%.1f",game.player.character.position.x,game.player.character.position.y) end
-			if coordinates.significantdigits == 2 then player.gui.top.coordinatesGUI.caption = string.format("x=%.2f y=%.2f",game.player.character.position.x,game.player.character.position.y) end
-			if coordinates.significantdigits == 3 then player.gui.top.coordinatesGUI.caption = string.format("x=%.3f y=%.3f",game.player.character.position.x,game.player.character.position.y) end
-			if coordinates.significantdigits == 4 then player.gui.top.coordinatesGUI.caption = string.format("x=%.4f y=%.4f",game.player.character.position.x,game.player.character.position.y) end
+			template = string.format("x=%%.%.df y=%%.%.df", coordinates.significantdigits, coordinates.significantdigits)
+			player.gui.top.coordinatesGUI.caption = string.format(template, game.player.character.position.x,game.player.character.position.y)
 		end
 end)
