@@ -16,3 +16,8 @@ script.on_event(defines.events.on_tick, function(event)
 			player.gui.top.coordinatesGUI.caption = string.format(template, game.player.character.position.x,game.player.character.position.y)
 		end
 end)
+
+script.on_event(defines.events.on_gui_click, function(event)
+	coordinates.significantdigits =  coordinates.significantdigits + 1
+	if coordinates.significantdigits > 4 then coordinates.significantdigits = 0 end
+end)
