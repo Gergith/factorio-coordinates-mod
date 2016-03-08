@@ -1,3 +1,9 @@
+1.2.0 - 2016.03.07
+- Added ability to show Z Coordinates (String instead of an int, to allow for mods)
+- Added option in config file to enable/disable Z Coordinates (disabled by default)
+- Changed default config for significant digits to 0
+- Fixed MAJOR bug with the significant digits changing with ANY button click, regardless of which plugin.
+
 1.1.0 - 2016.02.24
 - Added: Clickable button to change precision (Thanks to Skuzzzy!)
 - Simplified code (Thanks to Skuzzzy again!)
