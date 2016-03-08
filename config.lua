@@ -2,3 +2,5 @@
 coordinates.significantdigits = 0
 -- defaults to false. Allows for z coordinates to show up.
 coordinates.showz = false
+-- defaults to true. Toggles between multiline and single linedisplay
+coordinates.singleline = true

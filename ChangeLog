@@ -1,8 +1,13 @@
+1.3.0 - 2016.03.07
+- Changed: UI completely. Now transparent text.
+- Removed: button functionality to change significant digits on the fly. (will add config button/menu).
+- Added: option to specify if you want single or multiline (will make this better in future. Still keeps X & Y on same line for now.)
+
 1.2.0 - 2016.03.07
-- Added ability to show Z Coordinates (String instead of an int, to allow for mods)
-- Added option in config file to enable/disable Z Coordinates (disabled by default)
-- Changed default config for significant digits to 0
-- Fixed MAJOR bug with the significant digits changing with ANY button click, regardless of which plugin.
+- Added: ability to show Z Coordinates (String instead of an int, to allow for mods)
+- Added: option in config file to enable/disable Z Coordinates (disabled by default)
+- Changed: default config for significant digits to 0
+- Fixed: MAJOR bug with the significant digits changing with ANY button click, regardless of which plugin.
 
 1.1.0 - 2016.02.24
 - Added: Clickable button to change precision (Thanks to Skuzzzy!)
